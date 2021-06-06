@@ -1,0 +1,42 @@
+/* 
+  HERE WE'RE GONNA INCLUDE ALL
+  FILES PRESENT IN OUR STYLESHEET
+
+  Base:   
+    It consists of all the basic rules
+    of css, like font-size, box-sizing, etc..
+  Variables:
+    It consists of every data that we're
+    gonna use in this project,
+    like: font-sizes, colors, numbers etc. 
+  Components:
+    Any component that is reusable, or to which
+    we give a specific block will be in that
+    file. This file will consists of all the 
+    components like navigation, caraousel, forms, buttons etc.
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* !1rem = 10px */
+  font-size: 62.5%;
+
+  @media only screen and (max-width: 56.25em) {
+    font-size: 56.25%;
+  }
+
+  @media only screen and (max-width: 37.5em) {
+    font-size: 50%;
+  }
+}
+
+body {
+  font-size: var(--font-text);
+  line-height: 1.6;
+  background-color: var(--color-grey-light-1);
+}
