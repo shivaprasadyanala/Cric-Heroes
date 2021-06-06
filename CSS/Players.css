@@ -10,9 +10,36 @@ body {
   flex-wrap: wrap;
 }
 .player {
-  display: inline-block;
   border: 1px solid red;
   margin: 10px 0 0 10px;
   flex: 1 0 21%;
-  height: 100px;
+  padding: 10px;
+  border-radius: 15px;
+}
+.player:hover{ve}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+h2,
+h3,
+h4,
+h5,
+p {
+  text-align: center;
+}
+button {
+  background-color: var(--color-primary-light);
+  outline: none;
+  border-radius: 5px;
+}
+button:hover {
+  cursor: pointer;
+  outline: none;
+}
+.player-img {
+  border-radius: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
