@@ -16,7 +16,9 @@
     components like navigation, caraousel, forms, buttons etc.
 */
 
-* {
+*,
+::before,
+::after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -39,4 +41,7 @@ body {
   font-size: var(--font-text);
   line-height: 1.6;
   background-color: var(--color-grey-light-1);
+}
+a {
+  text-decoration: none;
 }
