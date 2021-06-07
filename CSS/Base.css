@@ -41,6 +41,7 @@ body {
   font-size: var(--font-text);
   line-height: 1.6;
   background-color: var(--color-grey-light-1);
+  font-family: var(--font-serif);
 }
 a {
   text-decoration: none;
