@@ -70,3 +70,15 @@ button:hover {
     box-shadow: inset;
   }
 }
+
+@media screen and (min-width: 420px) and (max-width: 675px) {
+  .player {
+    border: 1px solid red;
+    margin: 10px 0 0 10px;
+    flex: 1 0 41%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--color-grey-light-2);
+    box-shadow: inset;
+  }
+}
