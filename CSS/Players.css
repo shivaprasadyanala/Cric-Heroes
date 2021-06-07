@@ -35,15 +35,13 @@
   align-items: center;
 }
 
-h3,
-h4 {
-  text-align: center;
-}
 h3 {
+  text-align: center;
   font-family: var(--font-display);
   text-transform: uppercase;
 }
 h4 {
+  text-align: center;
   font-size: var(--font-text);
   font-family: var(--font-serif);
   color: rgb(82, 76, 76);
