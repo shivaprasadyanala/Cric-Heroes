@@ -1,0 +1,32 @@
+:root {
+  /* !Colors */
+  --color-primary-light: hsl(276, 92%, 50%);
+  --color-primary: hsl(276, 87%, 33%);
+  --color-primary-dark: hsl(276, 85%, 21%);
+
+  --color-secondary: hsl(0, 0%, 13%);
+
+  /* !Text-colors */
+  --color-grey-light-1: aliceblue;
+  --color-grey-light-2: hsl(40, 12%, 79%);
+  --color-grey-light-3: hsl(40, 12%, 76%);
+  --color-grey-light-4: #f2f2f2;
+  --first-color-light: #a49eac;
+
+  --color-grey-dark-1: hsl(40, 14%, 16%);
+  --color-grey-dark-2: hsl(40, 14%, 14%);
+  --color-grey-dark-3: hsl(40, 14%, 8%);
+
+  /* !Font Families */
+  --font-sans: "PT Sans", sans-serif;
+  --font-serif: "PT Serif", serif;
+  --font-display: "Righteous", cursive;
+
+  /* !Sizes */
+  --font-text: 1.6rem;
+  --font-text-small: 1.4rem;
+  --font-title-1: 4.8rem;
+  --font-title-2: 3.8rem;
+  --font-title-3: 3rem;
+  --font-title-4: 2.4rem;
+}
