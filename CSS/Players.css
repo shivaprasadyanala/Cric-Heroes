@@ -3,6 +3,8 @@
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
+  padding: 6rem 0;
+  /* background-color: aliceblue; */
 }
 .top {
   background-color: var(--color-primary-dark);
@@ -94,7 +96,7 @@ button:hover {
 }
 @media screen and (max-width: 768px) {
   .player {
-    flex-basis: 40%;
+    flex-basis: 42%;
   }
 }
 @media screen and (max-width: 680px) {
