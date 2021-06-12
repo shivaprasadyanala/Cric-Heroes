@@ -1,0 +1,67 @@
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  margin-top: 0.6rem;
+  margin-bottom: 1.6rem;
+  resize: vertical;
+  font-size: 1.5rem;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  margin-top: 0.5em;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+#subject {
+  font-size: 1.5rem;
+}
+.column label {
+  font-size: 1.8rem;
+}
+
+/* Style the container/contact section */
+.container-wrapper {
+  border-radius: 5px;
+  /* background-color: #f2f2f2; */
+  padding: 5rem 0;
+  /* border: aqua 2px solid; */
+}
+.container-wrapper h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2em;
+  /* border-bottom: 2px solid black; */
+}
+.container-wrapper .row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* Create two columns that float next to eachother */
+.container-wrapper .column {
+  flex-basis: 48%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .container-wrapper .row {
+    flex-direction: column;
+    flex-basis: 100%;
+  }
+}
